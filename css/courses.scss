@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#nav-container{
+    margin: 0 auto;
+    height: 70px;
+    position: sticky ;                                                                                                                        ;
+    top: 1px;
+    z-index: 999;
+}
+
+.navigation{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    text-align: center;
+ 
+}
+
+.navigation img{
+    position: absolute;
+    top: 0;
+    left: 4%;
+}
+
+.navigation ul{
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation li{
+    list-style-type:none;
+    padding: 15px;
+    display: inline;
+
+}
+
+.navigation li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.navigation .act{
+    color: rgb(225, 145, 138);
+}
+
+.search{
+    width: 50%;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 140%;
+    position: sticky;
+    top: 30px;
+}
+
+.searchTerm{
+    float: left;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 15px;
+    height: 0.9px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    color: #f2f2f2;
+}
+
+.searchTerm:focus{
+    color: black;
+}
+
+.searchButton{
+    position: absolute;
+    top: 0px;
+    right: -40px;
+    width: 40px;
+    height: 32px;
+    border: 1px solid #f2f2f2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: black;
+    text-align: center;
+    color: #fff;
+
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+///////////////////Introductory Courses/////////////////////////////////
+@mixin course-box{
+    border: 2px solid;
+    height: 200px;
+    width: 400px;
+}
+
+
+.courses{
+    border: 2px solid rgb(172, 170, 170);
+    background-color: rgb(172, 170, 170);
+}
+
+.miniBox{
+    border: 2px solid rgb(172, 170, 170);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.miniBox2{
+    @include course-box;
+    border: 2px solid rgb(172, 170, 170);
+    margin-top: -205px;
+    margin-left: 36.9%;
+    text-align: center;
+}
+
+.miniBox3{
+    @include course-box;
+    border: 2px solid rgb(172, 170, 170);
+    margin-top: -205px;
+    margin-left: 73.3%;
+    text-align: center;
+}
+
+.miniBox4{
+    @include course-box;
+    border: 2px solid rgb(172, 170, 170);
+    margin-top: 50px;
+    margin-left: 36.9%;
+    text-align: center;
+}
+
+.miniBox5{
+    @include course-box;
+    border: 2px solid rgb(172, 170, 170);
+    margin-top: -205px;
+    margin-left: 73.3%;
+    text-align: center;
+}
+
+.miniBox6{
+    border: 2px solid rgb(172, 170, 170);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.miniBox7{
+    border: 2px solid rgb(172, 170, 170);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+}    
+
+.courses h2{
+    text-align: center;
+}
+////////////////////////Beginner Coding Course///////////////////////////////////
+.beginner{
+    border: 2px solid white;
+    h2{
+        text-align: center;
+    }
+}
+
+.begBox{
+    @include course-box;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.begBox2{
+    @include course-box;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: -205px;
+    margin-left: 36.5%;
+    font-size: 15px;
+}
+
+.begBox3{
+    @include course-box;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: -205px;
+    margin-left: 73.3%;
+    font-size: 15px;
+}
+/////////////////////Intermediate Course////////////////////////////////////////////
+.intermediate{
+    border: 1px solid rgb(172, 170, 170);
+    background-color: rgb(172, 170, 170);
+    h2{
+        text-align: center;
+    }
+}
+
+.interBox{
+    border: 1px solid rgb(172, 170, 170);
+    height: 265px;
+    width: 400px;
+    text-align: center;
+}
+
+.interBox2{
+    border: 1px solid rgb(172, 170, 170);
+    height: 265px;
+    width: 400px;
+    text-align: center;
+    margin-top:-270px;
+    margin-left: 36.5%;
+}
+////////////////////////Social Innovation//////////////////////////////////
+.social{
+    border: 2px solid white;
+    h2{
+        text-align: center;
+    }
+}
+
+.socBox{
+    @include course-box;
+    border: 1px solid white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.socBox2{
+    @include course-box;
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    margin-top: -205px;
+    margin-left: 27.3%;
+}
+
+.socBox3{
+    @include course-box;
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    margin-top: -205px;
+    margin-left: 52.5%;
+}
+.socBox4{
+    @include course-box;
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    margin-top: -205px;
+    margin-left: 77%;
+}
+////////////////////////////Career and Life Skills//////////////////////////////////
+.career{
+    border: 1px solid rgb(172, 170, 170);
+    background-color: rgb(172, 170, 170);
+    h2{
+        text-align: center;
+    }
+}
+
+.carBox{
+    @include course-box;
+    border: 1px solid rgb(172, 170, 170);
+    text-align: center;
+}
+
+.carBox2{
+    @include course-box;
+    border: 1px solid rgb(172, 170, 170);
+    margin-top: -205px;
+    margin-left: 36.9%;
+    text-align: center;
+}
+
+.carBox3{
+    @include course-box;
+    border: 1px solid rgb(172, 170, 170);
+    margin-top: -205px;
+    margin-left: 73.3%;
+    text-align: center;
+}
+
+.carBox4{
+    @include course-box;
+    border: 1px solid rgb(172, 170, 170);
+    margin-top: 50px;
+    margin-left: 73.3%;
+    text-align: center;
+}
+
+.carBox5{
+    @include course-box;
+    border: 1px solid rgb(172, 170, 170);
+    margin-top: -205px;
+    margin-left: 36.9%;
+    text-align: center;
+}
+
+.carBox6{
+    @include course-box;
+    border: 1px solid rgb(172, 170, 170);
+    height: 240px;
+    text-align: center;
+    margin-top: -205px;
+}
+
+////////////////////////Cart Box///////////////////////
+
+#cartBox{
+    text-align: center;
+    border: 1px dotted;
+    background-color: pink;
+    h2{
+        text-decoration: underline;
+        text-decoration-color: hotpink;
+    }
+}

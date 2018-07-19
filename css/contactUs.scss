@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+#nav-container{
+    margin: 0 auto;
+    height: 70px;
+    position: sticky ;                                                                                                                        ;
+    top: 1px;
+    z-index: 999;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navigation{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    text-align: center;
+ 
+}
+
+.navigation img{
+    position: absolute;
+    top: 0;
+    left: 4%;
+    padding: 1px;
+}
+
+.navigation ul{
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation li{
+    list-style-type:none;
+    padding: 15px;
+    display: inline;
+
+}
+
+.navigation li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.navigation .act{
+    color: rgb(225, 145, 138);
+}
+
+.search{
+    width: 50%;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 140%;
+    position: sticky;
+    top: 30px;
+}
+
+.searchTerm{
+    float: left;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 15px;
+    height: 0.9px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    color: #f2f2f2;
+}
+
+.searchTerm:focus{
+    color: black;
+}
+
+.searchButton{
+    position: absolute;
+    top: 0px;
+    right: -40px;
+    width: 40px;
+    height: 32px;
+    border: 1px solid #f2f2f2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: black;
+    text-align: center;
+    color: #fff;
+
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+///////////////////////////////////////////
+
+body{
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    background-color: pink;
+}
+
+////////////////////////
+
+.name{
+    // border: 2px solid;
+    margin-left: 30%;
+}
+
+h2{
+    text-align: center;
+    margin-left: -55.5%;
+}
+
+form{
+    margin-top: 5%;
+    margin-left: 15.5%;
+}
+
+#text{
+    margin-top: 5%;
+}
+
+.name2{
+    margin-left: 1%;
+}
+
+.name3{
+    margin-left: 1%;
+}
+
+textarea{
+    margin-top: 3%;
+}
+
+.head{
+    margin-left: 30%;
+    margin-top: -20.5%;
+}
+
+p{
+    margin-left: 60%;
+}
+
+.button {
+    background-color:rgb(19, 8, 15);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15.5%;
+    cursor: pointer;
+}
+
+.coll-1 {
+    width: 400px;
+    height: 300px;
+    border: pink 1px solid;
+  }
+  
+  .coll-1 li {
+    list-style: none;
+  }
+  
+  .coll-1 i {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .coll-1 h3 {
+    margin-left: 60px;
+  }
+  
+  .coll-2 {
+    margin-top: -300.5px;
+    margin-left: 33.4%;
+    width: 400px;
+    height: 300px;
+    border: pink 1px solid;
+  }
+  
+  .coll-2 li {
+    list-style-type: square;
+  }
+  
+  .coll-2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .coll-2 a:hover {
+    color: red;
+  }
+  
+  .coll-2 h3 {
+    margin-left: 30px;
+  }
+  
+  .coll-3 {
+    margin-top: -301.5px;
+    margin-left: 66.9%;
+    width: 400px;
+    height: 300px;
+    border: pink 1px solid;
+  }
+  
+  .coll-3 li {
+    list-style-type: square;
+  }
+  
+  .coll-3 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .coll-3 a:hover {
+    color: red;
+  }
+  
+  .coll-3 h3 {
+    margin-left: 40px;
+  }
