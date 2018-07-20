@@ -1,43 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="css/portfolio.css">
-    <script src="main.js"></script>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+   <script src="js/hamburger.js"></script>
+        <link rel="stylesheet" href="css/nav.css">
+  <title>Portfolio</title>
 </head>
-    <body>
+  <body>
+    <div id="nav-container">
+      <div class="navigation">
+          <a href="index.html"><img src="http://code4ct.com/wp-content/uploads/2016/06/code4ct-logo-1.jpg"></a>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a class="act" href="#">COURSES</a></li>
+                <li><a href="aboutUs.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contactUs.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="search...">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search " style="color: hotpink;"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+  </header>
+
+    <center><h3>PORTFOLIO</h3> </center>
     
-            <div id="nav-container">
-                    <div class="navigation">
-                        <a href="index.html"><img src="http://code4ct.com/wp-content/uploads/2016/06/code4ct-logo-1.jpg"></a>
-        
-                        <nav id="menu">
-                            <ul>
-                                <li><a href="index.html">HOME</a></li>
-                                <li><a href="courses.html">COURSES</a></li>
-                                <li><a href="aboutUs.html">ABOUT</a></li>
-                                <li><a class="act" href="#">PORTFOLIO</a></li>
-                                <li><a href="contactUs.html">CONTACT</a></li>
-                            </ul>
-                        </nav>
-                        
-        
-                        <div class="wrap">
-                            <div class="search">
-                                <input type="text" class="searchTerm" placeholder="search...">
-                                <button type="submit" class="searchButton">
-                                    <i class="fa fa-search " style="color: hotpink;"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+    <div class="portfolio_text">
+
+      <h2>Our awesome portfolio</h2>
+
+      <center><p>Over the past 3 years, Code for Cape Town has reached over 600 young women with coding and social innovation. Not only have they been exposed to coding but they have also done careers and life skills courses, design thinking workshops and social innovation projects to address local challenges.
+
+        Our alumnae that joined the program in 2014 and 2015 have now left high school and many of them have gone on to enter STEM related tertiary studies or skills development.
+
+        Out of a total of 50 learners:
+
+        23 are studying at university or a university of technology
+        4 are enrolled in Information Systems or Computer Science
+        4 are enrolled in Engineering
+        6 are enrolled in Science
+        5 are enrolled in Health
+        12 are enrolled in an IT skills training program/internship</p></center>
+
+      </div>
+
+      <div class="container_div gallery clearfix">
+
+        <div class="image_box"><a href="images/Code-Camp-2015-Girls-Code-Tutor.jpg" rel="prettyPhoto[gallery1]"><img src="images/Code-Camp-2015-Girls-Code-Tutor.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/Code-Camp-2015-Girls-STEM.jpg" rel="prettyPhoto[gallery1]"><img src="images/Code-Camp-2015-Girls-STEM.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/Code-Camp-2015-STEM-Girls-Pilot-Sakimkamva.jpg" rel="prettyPhoto[gallery1]"><img src="images/Code-Camp-2015-STEM-Girls-Pilot-Sakimkamva.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/Code-Coach-Code4CT.jpg" rel="prettyPhoto[gallery1]"><img src="images/Code-Coach-Code4CT.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/Code-Conversation-Code4CT-Women-In-Tech.jpg" rel="prettyPhoto[gallery1]"><img src="images/Code-Conversation-Code4CT-Women-In-Tech.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/code4ct_homeslider2..jpg" rel="prettyPhoto[gallery1]"><img src="images/code4ct_homeslider2..jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/code4ct_homeslider3...jpg" rel="prettyPhoto[gallery1]"><img src="images/code4ct_homeslider3...jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/Code4CT-Code-Week-2017-Bandwidth-Barn.jpg" rel="prettyPhoto[gallery1]"><img src="images/Code4CT-Code-Week-2017-Bandwidth-Barn.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/CSG-International-Code4CT.jpg" rel="prettyPhoto[gallery1]"><img src="images/CSG-International-Code4CT.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/Host-Company-Semantica-Code4CT.jpg" rel="prettyPhoto[gallery1]"><img src="images/Host-Company-Semantica-Code4CT.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/img1.jpg" rel="prettyPhoto[gallery1]"><img src="images/img1.jpg" alt=""></a></div>
+
+        <div class="image_box"><a href="images/img2.png" rel="prettyPhoto[gallery1]"><img src="images/img2.png" alt=""></a></div>
+
+      </div>
+
+      <div class="dots">
+
+         <a href="portfolio.html"><button type="button" name="button"><center> 1 </center> </button></a>
+
+        <a href="portfolio2.html"><button type="button" name="button"><center> 2 </center> </button></a>
+
+      </div>
+
+      <div class="container">
+
+        <div class="carousel">
+
+          <img src="images/Code4CT-Partners-Automattic-Logo.png" alt="">
+          <img src="images/Code4CT-Partners-CSG-Logo.png" alt="">
+          <img src="images/Code4CT-Partners-Deloitte-Digital.png" alt="">
+          <img src="images/Code4CT-Partners-Lwande.png" alt="">
+          <img src="images/Code4CT-Partners-Mobenzi-Logo.png" alt="">
+          <img src="images/Code4CT-Partners-Open-Box.png" alt="">
+          <img src="images/Code4CT-Partners-Saratoga-Logo.png" alt="">
+          <img src="images/Code4CT-Partners-Take-A-Lot-Logo-1.png" alt="">
+          <img src="images/Code4CT-Partners-TNS.png" alt="">
+          <img src="images/Code4CT-Partners-US-Department-Of-State-Logo.png" alt="">
+          <img src="images/Code4ct-Partners-WeTech.png" alt="">
+          <img src="images/Code4ct-Partners-Where-Is-My-Transport.png" alt="">
+          <img src="images/rsz_1aws_logo_web_300px_2.png" alt="">
+          <img src="images/DGMurrayTrust-1.png" alt="">
+          <img src="images/partner_capitec-1.png" alt="">
+          <img src="images/partner_google-1.png" alt="">
+        </div>
+      </div>
+
+      <footer>
+
+        <div class="code4ct_Contact_Information">
+
+          <div class="code4ct_contact_details">
+
+            <ol>
+
+              <div class="address">
+                
+                <h2>Contact info</h2>
+
+                <h2>Contact info</h2>
+
+                <p><img src="images/email-150x150.png" alt="" width="20" height="20"> info@code4ct.com</p>
+
+                <p> <img src="images/telephone-symbol-icon-83700-150x150.png" alt="" width="20" height="20">  021 685 0991</p>
+                
+                <p> <img src="images/648819-star-ratings-512-150x150.png" alt="" width="20" height="20">  Innovate South Africa, <br>
+
+                     403 Old Castle Brewery, 6 Beach Rd, <br>
+
+                     Woodstock, Cape Town, 7915</p>
+
                 </div>
 
+              </div>
+
+              <div class="code4ct_extra_information">
+
+                <h5>Company</h5>
+
+                <ul>
+
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">Courses</a></li>
+
+                </ul>
+              </div>
+              <div class="code4ct_feedback">
+                <h5>Help & Support</h5>
+
+                <ul>
+
+                  <li>Help centre</li>
+                  <li>Free simple Template</li>
+                  <li>Refund policy</li>
+                  <li>Report span</li>
+
+                </ul>
+
+              </div>
+
+            </div>
+            <div class="footer_Border">
+
+              <p>COPYRIGHT &copy 2018 <strong>PRIVACY POLICY</STRONG></p>
+
+                <p id="social_media" style="float: left;">Follow us:
+
+                  <ul id="social_media_icons">
+
+                    <li><a href="https://www.facebook.com/code4ct/" target="_blank"><img src="images/Logos-Facebook-icon.png" ></a></li>
+                    <li><a href="https://twitter.com/@code4ct" target="_blank"><img src="images/Twitter-icon.png"></a></li>
+                    <li><a href="https://www.facebook.com/code4ct/" target="_blank"><img src="images/Pinterest-icon.png"></a></li>
+                    <li><a href="https://www.linkedin.com/company/9414552/" target="_blank"><img src="images/linkedin_Icon.png"></a></li>
+                    <li><a href="https://www.facebook.com/code4ct/" target="_blank"><img src="images/skype_icon.png"></a></li>
+                  </ul>
+
+                </p>
+
+              </div>
+              <div class="backToTop">
+                <a href=''><img src="images/back2top..png" alt="back_Top_Icon" id="back_to_top"></a>
+              </div>
+            </footer>
+
+            <script type="text/javascript">
+            jQuery(document).ready(function($){
+              $(window).scroll(function() {
+                if ($(this).scrollTop() >= 800) {
+                  $('.backToTop').fadeIn('slow');
+                } 							else {
+                  $('.backToTop').fadeOut('slow');
+                }
+              });
+              $('.backToTop').click(function() {
+                $('html,header').animate({
+                  scrollTop : 0
+                }, 2000);
+                return false;
+              });
+            });
+            </script>
+
+            <script type="text/javascript" charset="utf-8">
+      			  $(document).ready(function(){
+      				  $("area[rel^='prettyPhoto']").prettyPhoto();
+
+      				  $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',        theme:'light_square',slideshow:3000,});
+      				    $(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: false});
+
+      				    $("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+      					  custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+      				  	changepicturecallback: function(){ initialize(); }
+      				});
+
+      				$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+      					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+      					changepicturecallback: function(){ _bsap.exec(); }
+      				});
+      			});
+      			</script>
 
 
-    </body>
+
+  </body>
 </html>
